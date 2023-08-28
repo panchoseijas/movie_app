@@ -1,0 +1,39 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.logo{
+    all:unset;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    white 50%
+  );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+    background-position: 0;
+}
+
+.logo:hover::before {
+    width: 100%;
+  }

@@ -1,0 +1,25 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
+    gap: 15px;
+
+}
+
+
+
+.image-container {
+    width: 180px;
+    height: 270px; 
+    overflow: hidden; 
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+  }
+  
+.movie_poster {
+    width: 180px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+  

@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+*{
+  font-family: Lato,Lato-fallback,Arial,sans-serif;
+}
+
+h1,h2,h3{
+  color: #fff;
+}
+
+body{
+  background-color: #282c34;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
